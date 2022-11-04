@@ -1,0 +1,8 @@
+package pokemon;
+
+enum Pokenmon{
+    FoxDog=0;// 狐狸犬
+    WaterDog=1;//水🐕
+    GrassTurtle=2;//草龟
+    FireCat=3;//火猫
+}
