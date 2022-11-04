@@ -1,7 +1,10 @@
+syntax = "proto3";
+
 package pokemon;
+option go_package = "Pokenmon/proto";
 
 enum Pokenmon{
-    FoxDog=0;// 狐狸犬
+    SmallFoxDog=0;// 小小狐狸犬
     WaterDog=1;//水🐕
     GrassTurtle=2;//草龟
     FireCat=3;//火猫

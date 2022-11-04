@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package feature;
+option go_package = "Pokenmon/proto";
+
+enum Sex{
+    Male=0; //boy
+    Femal=1; //girl
+    Hermaphroditism=2; //boy and girl
+    
+}
